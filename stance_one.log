@@ -1,0 +1,30 @@
+Trump Evaluation
+              precision    recall  f1-score   support
+
+     AGAINST       0.60      0.99      0.75       425
+       FAVOR       0.95      0.22      0.36       352
+
+    accuracy                           0.64       777
+   macro avg       0.78      0.60      0.55       777
+weighted avg       0.76      0.64      0.57       777
+
+Biden Evaluation
+              precision    recall  f1-score   support
+
+     AGAINST       0.71      0.98      0.82       408
+       FAVOR       0.95      0.53      0.68       337
+
+    accuracy                           0.77       745
+   macro avg       0.83      0.75      0.75       745
+weighted avg       0.82      0.77      0.76       745
+
+Bernie Evaluation
+              precision    recall  f1-score   support
+
+     AGAINST       0.62      0.91      0.74       292
+       FAVOR       0.87      0.53      0.66       343
+
+    accuracy                           0.71       635
+   macro avg       0.75      0.72      0.70       635
+weighted avg       0.76      0.71      0.70       635
+

@@ -1,0 +1,177 @@
+=== Zero-shot | Trump ===
+              precision    recall  f1-score   support
+
+     AGAINST       0.71      0.78      0.74       425
+       FAVOR       0.70      0.61      0.65       352
+
+    accuracy                           0.70       777
+   macro avg       0.70      0.69      0.70       777
+weighted avg       0.70      0.70      0.70       777
+
+=== Zero-shot | Biden ===
+              precision    recall  f1-score   support
+
+     AGAINST       0.83      0.88      0.85       408
+       FAVOR       0.84      0.78      0.81       337
+
+    accuracy                           0.83       745
+   macro avg       0.83      0.83      0.83       745
+weighted avg       0.83      0.83      0.83       745
+
+=== Zero-shot | Bernie ===
+              precision    recall  f1-score   support
+
+     AGAINST       0.76      0.76      0.76       292
+       FAVOR       0.79      0.79      0.79       343
+
+    accuracy                           0.78       635
+   macro avg       0.77      0.78      0.78       635
+weighted avg       0.78      0.78      0.78       635
+
+=== Few-shot k=3 | Trump ===
+              precision    recall  f1-score   support
+
+     AGAINST       0.69      0.97      0.81       425
+       FAVOR       0.93      0.47      0.63       352
+
+    accuracy                           0.75       777
+   macro avg       0.81      0.72      0.72       777
+weighted avg       0.80      0.75      0.72       777
+
+=== Few-shot k=3 | Biden ===
+              precision    recall  f1-score   support
+
+     AGAINST       0.71      0.99      0.82       408
+       FAVOR       0.97      0.51      0.67       337
+
+    accuracy                           0.77       745
+   macro avg       0.84      0.75      0.74       745
+weighted avg       0.82      0.77      0.75       745
+
+=== Few-shot k=3 | Bernie ===
+              precision    recall  f1-score   support
+
+     AGAINST       0.68      0.90      0.78       292
+       FAVOR       0.89      0.64      0.74       343
+
+    accuracy                           0.76       635
+   macro avg       0.78      0.77      0.76       635
+weighted avg       0.79      0.76      0.76       635
+
+=== Few-shot k=6 | Trump ===
+              precision    recall  f1-score   support
+
+     AGAINST       0.66      0.97      0.79       425
+       FAVOR       0.92      0.40      0.56       352
+
+    accuracy                           0.71       777
+   macro avg       0.79      0.68      0.67       777
+weighted avg       0.78      0.71      0.68       777
+
+=== Few-shot k=6 | Biden ===
+              precision    recall  f1-score   support
+
+     AGAINST       0.76      0.96      0.85       408
+       FAVOR       0.93      0.62      0.75       337
+
+    accuracy                           0.81       745
+   macro avg       0.84      0.79      0.80       745
+weighted avg       0.84      0.81      0.80       745
+
+=== Few-shot k=6 | Bernie ===
+              precision    recall  f1-score   support
+
+     AGAINST       0.68      0.90      0.78       292
+       FAVOR       0.88      0.65      0.75       343
+
+    accuracy                           0.76       635
+   macro avg       0.78      0.77      0.76       635
+weighted avg       0.79      0.76      0.76       635
+
+=== Few-shot k=9 | Trump ===
+              precision    recall  f1-score   support
+
+     AGAINST       0.66      0.97      0.79       425
+       FAVOR       0.91      0.41      0.56       352
+
+    accuracy                           0.71       777
+   macro avg       0.79      0.69      0.68       777
+weighted avg       0.78      0.71      0.69       777
+
+=== Few-shot k=9 | Biden ===
+              precision    recall  f1-score   support
+
+     AGAINST       0.73      0.98      0.84       408
+       FAVOR       0.95      0.57      0.71       337
+
+    accuracy                           0.79       745
+   macro avg       0.84      0.77      0.77       745
+weighted avg       0.83      0.79      0.78       745
+
+=== Few-shot k=9 | Bernie ===
+              precision    recall  f1-score   support
+
+     AGAINST       0.66      0.90      0.76       292
+       FAVOR       0.88      0.60      0.72       343
+
+    accuracy                           0.74       635
+   macro avg       0.77      0.75      0.74       635
+weighted avg       0.78      0.74      0.74       635
+
+{'loss': 2.3599, 'grad_norm': 1.6427464485168457, 'learning_rate': 0.00019993781375715172, 'entropy': 2.347141599059105, 'num_tokens': 55279.0, 'mean_token_accuracy': 0.5353471411764622, 'epoch': 0.13}
+{'loss': 2.1217, 'grad_norm': 1.710372805595398, 'learning_rate': 0.0001985429439822596, 'entropy': 2.1940388268232347, 'num_tokens': 109395.0, 'mean_token_accuracy': 0.5770670220255851, 'epoch': 0.25}
+{'loss': 2.1131, 'grad_norm': 1.651609182357788, 'learning_rate': 0.0001953376425284846, 'entropy': 2.2007976508140565, 'num_tokens': 163522.0, 'mean_token_accuracy': 0.5788022167980671, 'epoch': 0.38}
+{'loss': 2.1198, 'grad_norm': 1.895593285560608, 'learning_rate': 0.0001903807972172959, 'entropy': 2.1965508037805557, 'num_tokens': 218678.0, 'mean_token_accuracy': 0.576789730489254, 'epoch': 0.5}
+{'loss': 2.1237, 'grad_norm': 1.737137794494629, 'learning_rate': 0.00018376347524656734, 'entropy': 2.1948986434936524, 'num_tokens': 273334.0, 'mean_token_accuracy': 0.5784598788619042, 'epoch': 0.63}
+{'loss': 2.1154, 'grad_norm': 1.6807870864868164, 'learning_rate': 0.00017560725010335983, 'entropy': 2.1854345315694808, 'num_tokens': 328893.0, 'mean_token_accuracy': 0.5783197158575057, 'epoch': 0.75}
+{'loss': 2.0962, 'grad_norm': 1.7499853372573853, 'learning_rate': 0.0001660619680149388, 'entropy': 2.1654791152477264, 'num_tokens': 383698.0, 'mean_token_accuracy': 0.5805457453429699, 'epoch': 0.88}
+{'eval_loss': 2.0943310260772705, 'eval_runtime': 14.232, 'eval_samples_per_second': 57.195, 'eval_steps_per_second': 7.167, 'eval_entropy': 2.1873979545107076, 'eval_num_tokens': 437954.0, 'eval_mean_token_accuracy': 0.5760914028859606, 'epoch': 1.0}
+{'loss': 2.1143, 'grad_norm': 1.6321966648101807, 'learning_rate': 0.00015530299497280395, 'entropy': 2.1917449397657385, 'num_tokens': 440107.0, 'mean_token_accuracy': 0.580720056541002, 'epoch': 1.01}
+{'loss': 1.612, 'grad_norm': 2.781611680984497, 'learning_rate': 0.0001435279949074264, 'entropy': 1.7377678710222244, 'num_tokens': 495578.0, 'mean_token_accuracy': 0.6516928136348724, 'epoch': 1.13}
+{'loss': 1.5715, 'grad_norm': 2.2679262161254883, 'learning_rate': 0.00013095329820508972, 'entropy': 1.6872202444076538, 'num_tokens': 550318.0, 'mean_token_accuracy': 0.6580472233891487, 'epoch': 1.26}
+{'loss': 1.5938, 'grad_norm': 2.251610040664673, 'learning_rate': 0.00011780992728447018, 'entropy': 1.7115656280517577, 'num_tokens': 605037.0, 'mean_token_accuracy': 0.6545057711005211, 'epoch': 1.38}
+{'loss': 1.5949, 'grad_norm': 2.339874744415283, 'learning_rate': 0.00010433935225109135, 'entropy': 1.7086742943525315, 'num_tokens': 660923.0, 'mean_token_accuracy': 0.6544024196267128, 'epoch': 1.51}
+{'loss': 1.565, 'grad_norm': 2.48937726020813, 'learning_rate': 9.078905460680062e-05, 'entropy': 1.687275756597519, 'num_tokens': 716395.0, 'mean_token_accuracy': 0.6600624266266822, 'epoch': 1.63}
+{'loss': 1.5673, 'grad_norm': 2.287653684616089, 'learning_rate': 7.740798051782923e-05, 'entropy': 1.695799145102501, 'num_tokens': 770948.0, 'mean_token_accuracy': 0.6599572020769119, 'epoch': 1.76}
+{'loss': 1.5553, 'grad_norm': 2.2822628021240234, 'learning_rate': 6.44419671740272e-05, 'entropy': 1.6794850462675095, 'num_tokens': 825811.0, 'mean_token_accuracy': 0.6635018599033355, 'epoch': 1.88}
+{'eval_loss': 2.1760199069976807, 'eval_runtime': 14.2582, 'eval_samples_per_second': 57.09, 'eval_steps_per_second': 7.154, 'eval_entropy': 1.874744900301391, 'eval_num_tokens': 875908.0, 'eval_mean_token_accuracy': 0.5728999148396885, 'epoch': 2.0}
+{'loss': 1.5254, 'grad_norm': 2.350472927093506, 'learning_rate': 5.212922626623533e-05, 'entropy': 1.6798830553514874, 'num_tokens': 880413.0, 'mean_token_accuracy': 0.6687601541154947, 'epoch': 2.01}
+{'loss': 0.9503, 'grad_norm': 2.923733949661255, 'learning_rate': 4.06959675593796e-05, 'entropy': 1.1398302587866782, 'num_tokens': 936193.0, 'mean_token_accuracy': 0.7772453680634499, 'epoch': 2.14}
+{'loss': 0.9508, 'grad_norm': 3.225627899169922, 'learning_rate': 3.035224296503556e-05, 'entropy': 1.146053541302681, 'num_tokens': 991452.0, 'mean_token_accuracy': 0.7757842546701431, 'epoch': 2.26}
+{'loss': 0.9327, 'grad_norm': 3.2733776569366455, 'learning_rate': 2.1288087466191052e-05, 'entropy': 1.1284693786501885, 'num_tokens': 1046137.0, 'mean_token_accuracy': 0.782281767129898, 'epoch': 2.39}
+{'loss': 0.9206, 'grad_norm': 3.2179272174835205, 'learning_rate': 1.3670027793165641e-05, 'entropy': 1.1189710360765457, 'num_tokens': 1101520.0, 'mean_token_accuracy': 0.7798779892921448, 'epoch': 2.51}
+{'loss': 0.9171, 'grad_norm': 3.322296142578125, 'learning_rate': 7.638022993317872e-06, 'entropy': 1.1104333093762397, 'num_tokens': 1156386.0, 'mean_token_accuracy': 0.786529405117035, 'epoch': 2.64}
+{'loss': 0.9188, 'grad_norm': 3.603428602218628, 'learning_rate': 3.302893102415994e-06, 'entropy': 1.1154045221209525, 'num_tokens': 1211137.0, 'mean_token_accuracy': 0.7834362614154816, 'epoch': 2.76}
+{'loss': 0.9304, 'grad_norm': 3.4356818199157715, 'learning_rate': 7.442831581399357e-07, 'entropy': 1.1186216741800308, 'num_tokens': 1265754.0, 'mean_token_accuracy': 0.780740632712841, 'epoch': 2.89}
+{'eval_loss': 2.485996723175049, 'eval_runtime': 14.2742, 'eval_samples_per_second': 57.026, 'eval_steps_per_second': 7.146, 'eval_entropy': 1.540498656385085, 'eval_num_tokens': 1313862.0, 'eval_mean_token_accuracy': 0.5559967022900488, 'epoch': 3.0}
+{'train_runtime': 1362.4401, 'train_samples_per_second': 14.009, 'train_steps_per_second': 0.876, 'train_loss': 1.551896825307977, 'epoch': 3.0}
+=== Fine-tuned | Trump (in-target) ===
+              precision    recall  f1-score   support
+
+     AGAINST       0.86      0.87      0.87       425
+       FAVOR       0.84      0.83      0.84       352
+
+    accuracy                           0.85       777
+   macro avg       0.85      0.85      0.85       777
+weighted avg       0.85      0.85      0.85       777
+
+=== Fine-tuned | Biden (cross-target) ===
+              precision    recall  f1-score   support
+
+     AGAINST       0.88      0.71      0.79       408
+       FAVOR       0.72      0.88      0.79       337
+
+    accuracy                           0.79       745
+   macro avg       0.80      0.80      0.79       745
+weighted avg       0.81      0.79      0.79       745
+
+=== Fine-tuned | Bernie (cross-target) ===
+              precision    recall  f1-score   support
+
+     AGAINST       0.83      0.57      0.67       292
+       FAVOR       0.71      0.90      0.79       343
+
+    accuracy                           0.75       635
+   macro avg       0.77      0.73      0.73       635
+weighted avg       0.77      0.75      0.74       635
+

@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.my_venv/
+
+# HuggingFace cache
+.cache/
+**/huggingface/
+
+# Modelos grandes
+*.bin
+*.pt
+*.safetensors
+
+# Checkpoints
+checkpoints/
+outputs/
+runs/
+qlora-stance/
+qlora-stance-trump/
+roberta-stance/
+roberta-stance-trump/
+
+# Datos
+PStance data/
+*.csv
+*.tsv
+*.jsonl
+
+# Logs
+
+
+# Jupyter
+.ipynb_checkpoints/
